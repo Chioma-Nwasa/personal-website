@@ -1,0 +1,151 @@
+.gradient-background {
+  background: linear-gradient(90deg, #8c52ff, #5ce1e6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+body {
+  font-family: alice;
+  height: 100vh;
+}
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: white;
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: white;
+      }
+    }
+
+    @media (min-width: 1601px) {
+      body {
+      background-color: white;
+      }
+    }
+
+#title {
+  color: white;
+  height: 100vh;
+  text-align: center;
+}
+#introduction {
+  text-align: center;
+  height: 70vh;
+}
+#skills {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+
+}
+#about {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .projects {
+    display: grid;
+  }
+}
+#projects {
+ text-align: center; 
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.box {
+  background: skyblue;
+  border: 1px solid skyblue;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 40px;
+}
+.image-row{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Web {
+  display: inline-flex;
+  order: 1;
+}
+h1 {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.work {
+  background-color: black;
+}
+
+img { 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.project img {
+  width: 100%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+#contact {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 2;
+}
